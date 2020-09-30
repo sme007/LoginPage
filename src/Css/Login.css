@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #808080;
+}
+html { font-size: 20px;}
+
+.container {
+    background-color: #fff;
+    width: 30%;
+    height: 400px;
+    margin: 100px auto;
+}
+
+.headInfo {
+    padding: 30px 0;
+}
+.headInfo h2{ color: #00c9a7; }
+form {
+    width: 100%;
+}
+
+/* Inputs */
+input[type="text"] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    width: 70%;
+    border: 0;
+    background-color: transparent;
+    border-top: 2px solid #258ea6;
+    border-right: 2px solid#258ea6;
+    border-left: 2px solid #258ea6;
+    outline: none;
+}
+input[type="password"] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    width: 70%;
+    outline: none;
+    border:2px solid #258ea6;
+}
+
+/* Button */
+.btn {
+    margin-top: 50px;
+    padding: 12px 20px;
+    margin: 20px 0;
+    width: 70%;
+    border: 0;
+    background-color: #00c9a7;
+    color: #fff;
+    outline: none;
+}
+.btn:hover {
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+/* Media query */
+
+@media screen and (max-width: 600px) {
+   
+    .container {
+        width: 100%;
+        height: 100vh;
+        margin: 0;     
+        font-size: 40px; 
+        padding: 0 40px;  
+    }   
+    .loginContent {
+        padding-top: 50px;
+    }
+    .headInfo h2 { font-size: 30px;}
+    input[type="text"] {   
+        width: 100%; 
+        padding: 18px 20px; 
+        margin: 8px 0; 
+    }
+    input[type="password"] {   
+        width: 100%;
+        padding: 18px 20px;  
+    }
+    .btn {   
+        width: 100%;
+        padding: 18px 20px;     
+    }    
+
+}
+
+
